@@ -10,6 +10,14 @@
 
 ---
 
+## Integrantes
+
+[![GitHub](https://img.shields.io/badge/GitHub-Adrielly%20Araujo-181717?style=for-the-badge&logo=github)](https://github.com/adriellyoliveira)
+[![GitHub](https://img.shields.io/badge/GitHub-Alana-181717?style=for-the-badge&logo=github)](https://github.com/Lanaskyu)
+[![GitHub](https://img.shields.io/badge/GitHub-Yasmin-181717?style=for-the-badge&logo=github)](https://github.com/yasemiliano05-pixel)
+
+---
+
 ## Sobre o projeto
 
 O Eco Vigilante é um Projeto Integrador desenvolvido durante o primeiro semestre da graduação de Tecnologia em Sistemas para Internet, com o objetivo de criar um site institucional para uma ONG fictícia voltada à conscientização e combate ao garimpo ilegal no Brasil.
@@ -74,16 +82,6 @@ A interface foi planejada no Figma, priorizando organização visual, responsivi
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,figma,vscode" />
 </p>
-
----
-
-## Integrantes
-
-[![GitHub](https://img.shields.io/badge/GitHub-Adrielly%20Araujo-181717?style=for-the-badge&logo=github)](https://github.com/adriellyoliveira)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Alana-181717?style=for-the-badge&logo=github)](https://github.com/Lanaskyu)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Yasmin-181717?style=for-the-badge&logo=github)](https://github.com/yasemiliano05-pixel)
 
 ---
 
