@@ -1,3 +1,61 @@
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(../assets/images/garimpo-ilegal-background-hero\ 2\ \(1\).svg);
+    background-repeat: no-repeat;
+    background: cover;
+
+
+
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+nav > img{
+     padding-right: 500px;
+
+}
+
+a {
+     
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+.hero-content {
+    padding: 200px;
+    flex-direction: column;
+   
+    
+}
+
+h1 {
+    font-weight: 700;
+    color: #CF9A30;
+    font-size: 52px;
+}
+
+
+.hero-content > p {
+    margin-top: 16px;
+    font-weight: 100;
+    color: white;
+    font-size: 25px;
+}
+
+.button-wrapper {
+margin-top: 32px;
+
+
+}
+
 :root {
     --cor-titulo: #CF9A30;
     --cor-paragrafo-black: #000000e5;
@@ -45,6 +103,7 @@ button {
 /* Seção 01 O QUE É O GARIMPO */
 
 .about-mining {
+    
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -74,7 +133,7 @@ button {
     border-radius: 16px;
 }
 
-.about-mining-card > p {
+.about-mining-card>p {
     color: var(--cor-paragrafo-white);
 }
 
@@ -121,7 +180,7 @@ button {
     border-radius: 50%;
 }
 
-.step-number > p {
+.step-number>p {
     font-family: var(--font-title);
     font-size: 40px;
     color: var(--cor-padrao-white);
@@ -186,7 +245,7 @@ button {
     gap: 16px;
 }
 
-.report-card-text > h3 {
+.report-card-text>h3 {
     font-size: 24px;
     font-weight: 600;
 }
