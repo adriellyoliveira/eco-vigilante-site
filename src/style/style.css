@@ -120,10 +120,14 @@ button {
 .about-mining-cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
 .about-mining-card {
+    width: 380px;
+    height: 145px;
     padding: 32px 52px;
     background-color: var(--cor-card);
     display: flex;
@@ -222,11 +226,13 @@ button {
 }
 
 .report-channel-card {
+    width: 380px;
     padding: 28px;
     border: 4px solid var(--cor-card);
     display: flex;
     flex-direction: column;
     gap: 32px;
+    justify-content: space-between;
     border-radius: 8px;
 }
 
@@ -237,6 +243,15 @@ button {
     align-items: center;
     gap: 32px;
     text-align: center;
+}
+
+.report-card-logo {
+    width: 80px;
+    height: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .report-card-text {
@@ -258,11 +273,17 @@ button {
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 56px;
 }
 
 .contact-title {
     text-align: center;
+}
+
+.contact-form {
+    width: 100%;
 }
 
 .contact-logo {
@@ -309,4 +330,75 @@ textarea {
 
 #message {
     height: 200px;
+}
+
+
+/* ====== MEDIA QUERY DESKTOP ======*/
+
+@media (min-width: 1280px) {
+    .about-mining {
+        padding: 64px 166px;
+    }
+
+    .about-mining-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mining-process {
+        padding: 64px 166px;
+    }
+
+    .report-channel {
+        padding: 64px 166px;
+    }
+
+    .report-channel-cards {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .report-channel-card {
+        width: 380px;
+    }
+
+    .contact {
+        padding: 64px 166px;
+    }
+
+    .contact-logo {
+        width: 330px;
+        height: 480px;
+        border-radius: 16px 0px 0px 16px;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-form-content {
+        width: 650px;
+        border-radius: 0px 16px 16px 0px;
+    }
+}
+
+/* ====== MEDIA QUERY TABLET ======*/
+
+@media (min-width: 768px) {
+    .about-mining-cards {
+        flex-direction: row;
+    }
+
+    .about-mining-cards {
+        flex-wrap: wrap;
+    }
+
+    .about-mining-card {
+        align-items: center;
+        justify-content: center;
+    }
+
+    
 }
