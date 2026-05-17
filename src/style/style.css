@@ -1,3 +1,22 @@
+:root {
+    --cor-titulo: #CF9A30;
+    --cor-paragrafo-black: #000000e5;
+    --cor-paragrafo-white: #ffffffe5;
+
+    --cor-padrao-black: #000000;
+    --cor-padrao-white: #ffffff;
+
+    --cor-card: #CF9A30;
+    --cor-bottons: linear-gradient(#A1672A, #CF9A30);
+
+    --cor-form: #FFF1D9;
+    --cor-form-field: #FFE4B2;
+
+    --font-title: 'Alfa Slab One', sans-serif;
+    --font-body: 'Rubik', sans-serif;
+}
+
+
 .hero-section {
     width: 100vw;
     height: 100vh;
@@ -38,7 +57,7 @@ a {
 
 h1 {
     font-weight: 700;
-    color: #CF9A30;
+    color: var(--cor-titulo);
     font-size: 52px;
 }
 
@@ -54,24 +73,6 @@ h1 {
 margin-top: 32px;
 
 
-}
-
-:root {
-    --cor-titulo: #CF9A30;
-    --cor-paragrafo-black: #000000e5;
-    --cor-paragrafo-white: #ffffffe5;
-
-    --cor-padrao-black: #000000;
-    --cor-padrao-white: #ffffff;
-
-    --cor-card: #CF9A30;
-    --cor-bottons: linear-gradient(#A1672A, #CF9A30);
-
-    --cor-form: #FFF1D9;
-    --cor-form-field: #FFE4B2;
-
-    --font-title: 'Alfa Slab One', sans-serif;
-    --font-body: 'Rubik', sans-serif;
 }
 
 /* GERAL */
