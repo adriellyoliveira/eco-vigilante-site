@@ -1,3 +1,4 @@
+/* Header*/
 .hero-section {
     width: 100vw;
     height: 100vh;
@@ -5,8 +6,6 @@
     background-image: url(../assets/images/garimpo-ilegal-background-hero\ 2\ \(1\).svg);
     background-repeat: no-repeat;
     background: cover;
-
-
 
 }
 
@@ -17,13 +16,14 @@ nav {
     align-items: center;
 
 }
-nav > img{
-     padding-right: 500px;
+
+nav>img {
+    padding-right: 500px;
 
 }
 
 a {
-     
+
     font-weight: 100;
     font-size: 20px;
     color: white;
@@ -32,8 +32,8 @@ a {
 .hero-content {
     padding: 200px;
     flex-direction: column;
-   
-    
+
+
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 }
 
 
-.hero-content > p {
+.hero-content>p {
     margin-top: 16px;
     font-weight: 100;
     color: white;
@@ -51,10 +51,12 @@ h1 {
 }
 
 .button-wrapper {
-margin-top: 32px;
+    margin-top: 32px;
 
 
 }
+
+/*FIM DO HEADER*/
 
 :root {
     --cor-titulo: #CF9A30;
@@ -103,7 +105,7 @@ button {
 /* Seção 01 O QUE É O GARIMPO */
 
 .about-mining {
-    
+
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -201,6 +203,94 @@ button {
 }
 
 /* Fim Seção 02 */
+
+/*Seção impacto "antes e depois da área florestal"*/
+
+.impact-text {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-impact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.before-image>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.after-image>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+
+/* Fim Seção impact */
+
+
+/* Carrossel */
+
+.box {
+    width: 330px;
+    height: 332px;
+
+    border-radius: 24px;
+    box-shadow: 0px 4px 10px;
+
+}
+
+.text-box {
+    text-align: center;
+
+
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+
+}
+
+.box>p {
+    display: flex;
+    align-items: flex-end;
+    height: 110px;
+
+}
+
+.box>img {
+    width: 319px;
+    height: 193px;
+
+}
+
+.box>h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 94px;
+    font-size: 24px;
+    color: #CF9A30;
+
+}
 
 /* Seção 08 - CANAIS DE DENÚNCIA */
 
@@ -400,5 +490,5 @@ textarea {
         justify-content: center;
     }
 
-    
+
 }
