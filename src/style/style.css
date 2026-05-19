@@ -20,9 +20,10 @@
 }
 
 
-.hero-section {
-    width: 100vw;
-    height: 100vh;
+.hero-section > img {
+    width: 100vw;                 
+    min-height: 100vh; 
+    position: absolute;
 
     background-image: url(../assets/images/garimpo-ilegal-background-hero\ 2\ \(1\).svg);
     background-repeat: no-repeat;
@@ -31,6 +32,7 @@
 }
 
 nav {
+    position: relative;
     justify-content: center;
     display: flex;
     gap: 30px;
@@ -51,6 +53,7 @@ a {
 }
 
 .hero-content {
+    position: relative;
     padding: 200px;
     flex-direction: column;
 
@@ -126,7 +129,7 @@ button {
 /* Seção 01 O QUE É O GARIMPO */
 
 .about-mining {
-
+    margin-top: 320px;
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -267,7 +270,7 @@ button {
 /* Carrossel */
 
 .box {
-    width: 330px;
+    width: 318px;
     height: 332px;
 
     border-radius: 24px;
@@ -315,9 +318,68 @@ button {
 
 /*fim carrossel*/
 
+
+
+/*Começo sessão numero de problemas*/
+
+.box-problem {
+    width: 280px;
+    height: 112px;
+    border: 3px solid #CF9A30;
+
+    border-radius: 24px;
+    box-shadow: 0px 4px 10px;
+}
+
+.problem-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.box-problem > p {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #CF9A30;
+    font-weight: 700;
+
+}
+
+ .problem-card > h2 {
+    text-align: center;
+    margin-top: 125px;
+}
+
+/*fim da sessão de numeros /*
+
+
+/*mapa em tempo real/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Seção 08 - CANAIS DE DENÚNCIA */
 
 .report-channel {
+    margin-top: 4000px;
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -515,3 +577,4 @@ textarea {
 
 
 }
+
