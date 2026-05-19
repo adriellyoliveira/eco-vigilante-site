@@ -354,19 +354,56 @@ button {
     margin-top: 125px;
 }
 
-/*fim da sessão de numeros /*
+/*fim da sessão de numeros */
 
 
-/*mapa em tempo real/*
+/*mapa em tempo real
 
-
-
-
-
+em processo....*/
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sessão noticias*/
+
+.box-news > img  {
+    width: 400px;
+    
+}
+
+.news {
+    border: 1px solid #CF9A30;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+ .section-news > h2 {
+      text-align: center;
+      
+ }
+
+
+ .news >p {
+
+    align-items: flex-end;
+   
+ }
 
 
 
