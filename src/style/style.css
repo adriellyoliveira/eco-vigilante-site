@@ -390,7 +390,6 @@ em processo...*/
 /* Seção 08 - CANAIS DE DENÚNCIA */
 
 .report-channel {
-    margin-top: 4000px;
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
