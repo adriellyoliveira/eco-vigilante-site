@@ -22,12 +22,10 @@
 
 .hero-section > img {
     width: 100vw;                 
-    min-height: 100vh; 
+    height: 80vh; 
     position: absolute;
+    object-fit: cover;
 
-    background-image: url(../assets/images/garimpo-ilegal-background-hero\ 2\ \(1\).svg);
-    background-repeat: no-repeat;
-    background: cover;
 
 }
 
@@ -81,24 +79,6 @@ h1 {
 
 
 /*FIM DO HEADER*/
-
-:root {
-    --cor-titulo: #CF9A30;
-    --cor-paragrafo-black: #000000e5;
-    --cor-paragrafo-white: #ffffffe5;
-
-    --cor-padrao-black: #000000;
-    --cor-padrao-white: #ffffff;
-
-    --cor-card: #CF9A30;
-    --cor-bottons: linear-gradient(#A1672A, #CF9A30);
-
-    --cor-form: #FFF1D9;
-    --cor-form-field: #FFE4B2;
-
-    --font-title: 'Alfa Slab One', sans-serif;
-    --font-body: 'Rubik', sans-serif;
-}
 
 /* GERAL */
 
@@ -359,58 +339,52 @@ button {
 
 /*mapa em tempo real
 
-em processo....*/
+em processo...*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*sessão noticias*/
+/*Seção noticias*/
 
 .box-news > img  {
     width: 400px;
-    
+    position: absolute;
 }
 
 .news {
-    border: 1px solid #CF9A30;
-    margin-top: 20px;
+    margin-top: 80px;
+    gap: 30px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+
 }
  .section-news > h2 {
-      text-align: center;
+    margin-top: 80px;
+    text-align: center;
       
  }
 
+ .box-black {
+    margin-top: 210px;
+    padding: 3%;
+    position: relative;
+    width: 400px;
+    height: 75px;
+    background-color: #000000;
+   
 
- .news >p {
-
-    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
  }
 
+ .box-black > p {
+    
+      color: #ffffff;
+    
+ }
 
-
-
-
-
-
+/* FIM - Seção Notícias */
 
 
 /* Seção 08 - CANAIS DE DENÚNCIA */
