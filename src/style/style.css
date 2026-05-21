@@ -20,43 +20,42 @@
 }
 
 
-.hero-section > img {
-    width: 100vw;                 
-    height: 80vh; 
-    position: absolute;
-    object-fit: cover;
+.hero-section {
+    position: relative;
+    width: 100%;                 
+    min-height: 85vh; 
 
-
+   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url(../assets/images/garimpo-ilegal.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 nav {
-    position: relative;
-    justify-content: center;
+    
     display: flex;
-    gap: 30px;
+    justify-content: center;
     align-items: center;
-
+    text-align: center;
+    gap: 30px;
+    
 }
 
-nav>img {
-    padding-right: 500px;
-
-}
 
 a {
-
+   
     font-weight: 100;
     font-size: 20px;
     color: white;
 }
 
 .hero-content {
-    position: relative;
+   
     padding: 200px;
     flex-direction: column;
 
 
 }
+
 
 h1 {
     font-weight: 700;
@@ -72,9 +71,17 @@ h1 {
     font-size: 25px;
 }
 
-.button-wrapper {
-    margin-top: 32px;
+.hero-section h1, .hero-section p {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.11);
+}
 
+.btn-problema-banner {
+  margin-right: 10px;
+}
+.button-wrapper {
+margin-top: 35px;
+   
+   
 }
 
 
@@ -109,7 +116,6 @@ button {
 /* Seção 01 O QUE É O GARIMPO */
 
 .about-mining {
-    margin-top: 320px;
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -337,15 +343,61 @@ button {
 /*fim da sessão de numeros */
 
 
-/*mapa em tempo real
+/*mapa em tempo real*/
 
-em processo...*/
+.section-title {
+    margin-top: 80px;
+    text-align: center;
+}
+.container-munduruku {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 32px;
+    width: 1100px;
+
+    border: 2px solid #CF9A30;
+    border-radius: 24px;
+    box-sizing: border-box;
+    margin-left: 400px;
+
+    background-color: var(--cor-form);
+
+}
+
+.container-munduruku > img {
+    width: 400px;
+    border-radius: 24px;
+    border: 2px solid #CF9A30;
+}
+
+
+.container-munduruku > p {
+    color: var(--cor-paragrafo-black);
+}
+
+.text-munduruku {
+    width: 700px;
+    flex-direction: column;
+    
+   
+}
+    
+
+
 
 /*Seção noticias*/
 
 .box-news > img  {
     width: 400px;
     position: absolute;
+    border-radius: 24px;
+    border: 4px solid #CF9A30;
+    border-bottom: none;
+   
 }
 
 .news {
@@ -364,12 +416,16 @@ em processo...*/
  }
 
  .box-black {
+    width: 400px;
+    height: 75px;
     margin-top: 210px;
     padding: 3%;
     position: relative;
-    width: 400px;
-    height: 75px;
-    background-color: #000000;
+    
+    border-radius: 24px;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70));
+    border: 3px solid #CF9A30;   
+    border-top: none;  
    
 
     display: flex;
@@ -378,9 +434,18 @@ em processo...*/
    
  }
 
- .box-black > p {
+ .box-black > .p1 {
     
-      color: #ffffff;
+      color: var(--cor-paragrafo-white);
+      text-decoration: underline;
+    
+ }
+ 
+ .box-black > .p2 {
+    color: #CF9A30;
+    font-size: 14px;
+    margin-top: 46px;
+    white-space: nowrap;
     
  }
 
@@ -390,7 +455,6 @@ em processo...*/
 /* Seção 08 - CANAIS DE DENÚNCIA */
 
 .report-channel {
-    margin-top: 4000px;
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -522,7 +586,7 @@ body{
 /* Seção 10 - SAIBA MAIS*/
 
 .banner{
-    width: 90%;
+    width: 62%;
     height: 170px;
     margin: 40px auto;
 
@@ -615,6 +679,7 @@ body{
     background-size: cover;
     background-position: center;
     border-radius: 16px 16px 0px 0px;
+    
 }
 
 .contact-form-content {
