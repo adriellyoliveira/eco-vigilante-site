@@ -310,7 +310,7 @@ margin-top: 35px;
 .box>img {
     width: 319px;
     height: 193px;
-
+    border-radius: 24px 24px 0px 0px;
 }
 
 .box>h3 {
@@ -540,7 +540,7 @@ margin-top: 35px;
 
 /* Fim Seção 08 */
 
-/* Seção 09 - O QUE VOCÊ PODE SER FEITO?*/
+/* Seção 09 - O QUE VOCÊ PODE SER FAZER?*/
 
 *{
     margin: 0;
@@ -608,64 +608,40 @@ body{
 
 /* Seção 10 - SAIBA MAIS*/
 
-.banner{
-    width: 62%;
-    height: 170px;
-    margin: 40px auto;
+.banner {
+    padding: 64px 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    
+.overlay {
+    width: 1180px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/images/area-destruida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+    padding: 0px 40px;
 }
 
-.banner img{
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    filter: brightness(40%);
+.conteudo-banner {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
-
-
-.conteudo-banner{
-    position: absolute;
-    top: 50%;
-    left: 60px;
-
-    transform: translateY(-50%);
-    
-    color: white;
-}
-
-.conteudo-banner h2{
-    font-size: 28px;
-    font-family: 'rubik';
-    line-height: 1.3;
-    
-
-    margin-top: 29px;
-    margin-bottom: 10px;
-    color: white;
-}
-
-.conteudo-banner button{
-    background-color: var(--cor-titulo);
-    color: white;
-
-    border: none;
-    padding: 15px 50px;
-
-    border-radius: 10px;
-    font-size: 18px;
-    cursor: pointer;
-
+{
     
 }
 
-.conteudo-banner button:hover{
-    background-color: var(--cor-titulo);
+.conteudo-banner > p {
+    font-size: 24px;
+    color: var(--cor-paragrafo-white);
+    text-align: center;
 }
 
 /*fim da seção 10*/
