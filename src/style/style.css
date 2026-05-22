@@ -32,7 +32,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 112px;
+    gap: 96px;
 }
 
 h2 {
@@ -237,13 +237,19 @@ margin-top: 35px;
 
 /*Seção impacto "antes e depois da área florestal"*/
 
-.impact-text {
+.impact {
+    padding: 64px 166px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.impact-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .container-impact {
@@ -286,9 +292,8 @@ margin-top: 35px;
 }
 
 .text-box {
+    padding: 64px 166px;
     text-align: center;
-
-
 }
 
 .carousel {
@@ -329,36 +334,40 @@ margin-top: 35px;
 
 /*Começo sessão numero de problemas*/
 
-.box-problem {
-    width: 280px;
-    height: 112px;
-    border: 3px solid var(--cor-titulo);
-
-    border-radius: 24px;
-    box-shadow: 0px 4px 10px;
-}
-
-.problem-box {
+.problem {
+    padding: 64px 166px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 32px;
-    margin-top: 32px;
 }
 
-.box-problem > p {
-    text-align: center;
+.problem-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.problem-card {
+    width: 280px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #CF9A30;
+    border: 6px solid var(--cor-card);
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.problem-card > h3 {
+    font-size: 24px;
     font-weight: 700;
-
+    color: var(--cor-titulo);
 }
 
- .problem-card > h2 {
-    text-align: center;
-    margin-top: 125px;
+.problem-card > p {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--cor-titulo);
 }
 
 /*fim da sessão de numeros */
@@ -366,25 +375,25 @@ margin-top: 35px;
 
 /*Seção Povos indigenas*/
 
-.section-title{
-    margin-top: 80px;
-    text-align: center;
+.munduruku {
+    padding: 64px 166px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
 
-.section-p {
+.munduruku-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     text-align: center;
-   
 }
 
 .container-munduruku {
-    margin-top: 80px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 32px;
-
     border-radius: 24px;
     box-sizing: border-box;
     
@@ -401,11 +410,9 @@ margin-top: 35px;
     color: var(--cor-paragrafo-black);
 }
 
-.text-munduruku {
+.content-munduruku {
     width: 700px;
     flex-direction: column;
-    
-   
 }
     
 /*Fim seção - Povos indigenas*/
@@ -414,17 +421,22 @@ margin-top: 35px;
 
 /*Seção noticias*/
 
+.section-news {
+      padding: 64px 166px;
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+}
+
 .box-news > img  {
     width: 400px;
     position: absolute;
     border-radius: 24px;
     border: 4px solid var(--cor-titulo);
     border-bottom: none;
-   
 }
 
 .news {
-    margin-top: 80px;
     gap: 30px;
 
     display: flex;
@@ -433,7 +445,6 @@ margin-top: 35px;
 
 }
  .section-news > h2 {
-    margin-top: 80px;
     text-align: center;
       
  }
@@ -542,17 +553,6 @@ margin-top: 35px;
 
 /* Seção 09 - O QUE VOCÊ PODE SER FAZER?*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
 .acoes{
     width: 100%;
     padding: 50px 20px;
@@ -565,39 +565,39 @@ body{
     font-size: 38px;
 }
 
-.cards{
+.acoes-cards{
     display: flex;
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
 }
 
-.card{
+.acoes-card{
     width: 320px;
 }
 
-.topo-card{
+.acoes-topo-card{
     background-color: var(--cor-titulo);
     color: white;
     border-radius: 10px;
     padding: 20px;
 }
 
-.topo-card h1{
+.acoes-topo-card h1{
     font-size: 60px;
     font-weight: bold;
     font-family: var(--font-title);
     color: white;
 }
 
-.topo-card h3{
+.acoes-topo-card h3{
     font-size: 28px;
     margin-top: 5%;
     font-family: var(--font-title);
     color: white;
 }
 
-.card p{
+.acoes-card p{
     margin-top: 20px;
     font-size: 20px;
     color: #444;
@@ -620,9 +620,10 @@ body{
     height: 210px;
     display: flex;
     align-items: center;
-    background-image: url(../assets/images/area-destruida.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/area-destruida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 10px;
     padding: 0px 40px;
 }
@@ -632,10 +633,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
-
-{
-    
 }
 
 .conteudo-banner > p {
