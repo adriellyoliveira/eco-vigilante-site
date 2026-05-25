@@ -710,6 +710,135 @@ textarea {
     height: 200px;
 }
 
+/* Seção 12 - DIREITOS AUTORAIS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #f5f1eb;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b3b1f;
+    
+    
+}
+
+.footer-container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 60px 40px;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.footer-box{
+    width: 300px;
+  
+
+   
+}
+    
+
+.logo-area{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.logo-area img{
+    width: 110px;
+    height: 115px;
+    border-radius: 50%;
+    
+}
+
+.logo-area h2{
+    font-family: 'rubik',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    
+    
+    color: #5b4025;
+    
+}
+
+.footer-box h4{
+    color: #5e7b5d;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-box p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-box span{
+    color: #5e7b5d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-box h3{
+    font-size: 30px;
+    font-family: 'Rubik';
+    color: #824f1a ;
+    margin-bottom: 10px;
+}
+
+.linha{
+    width: 50px;
+    height: 4px;
+    background-color: green;
+    margin-bottom: 25px;
+}
+
+.footer-box ul{
+    list-style: none;
+}
+
+.footer-box ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.redes img{
+    width: 40px;
+    transition: 0.3s;
+}
+
+.redes img:hover{
+    transform: scale(1.1);
+}
+
+.copyright{
+    border-top: 2px solid #d9c5b3;
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+
 
 /* ====== MEDIA QUERY DESKTOP ======*/
 
