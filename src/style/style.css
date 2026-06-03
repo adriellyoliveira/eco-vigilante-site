@@ -176,30 +176,57 @@ button:active {
 
 .about-mining-cards {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+    
 }
 
-.about-mining-card {
-    width: 380px;
-    height: 145px;
-    padding: 32px 52px;
-    background-color: var(--cor-card);
+.about-mining-card > img {
+    width: 320px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
-    border-radius: 16px;
+    filter: brightness(0.6);
+    
 
-    p {
-        color: var(--cor-paragrafo-white);
-    }
 }
+
+.icon > img{
+    position: absolute;
+    width: 80px;
+    margin-left: 110px;
+   
+    
+
+}
+
+
+
+
+.absolute-text {
+    position: absolute;
+    width: 80px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 
 /* Fim Seção 01 */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Seção 02 - COMO ESSA ATIVIDADE É FEITA */
 
@@ -339,9 +366,11 @@ button:active {
 
 .box>img {
     width: 319px;
-    height: 193px;
+    height: 195px;
     border-radius: 24px 24px 0px 0px;
 }
+
+
 
 .box>h3 {
     display: flex;
