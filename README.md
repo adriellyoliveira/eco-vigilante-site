@@ -13,8 +13,8 @@
 ## Integrantes
 
 [![GitHub](https://img.shields.io/badge/GitHub-Adrielly%20Araujo-181717?style=for-the-badge&logo=github)](https://github.com/adriellyoliveira)
-[![GitHub](https://img.shields.io/badge/GitHub-Alana-181717?style=for-the-badge&logo=github)](https://github.com/Lanaskyu)
-[![GitHub](https://img.shields.io/badge/GitHub-Yasmin-181717?style=for-the-badge&logo=github)](https://github.com/yasemiliano05-pixel)
+[![GitHub](https://img.shields.io/badge/GitHub-Alana%20Julia-181717?style=for-the-badge&logo=github)](https://github.com/Lanaskyu)
+[![GitHub](https://img.shields.io/badge/GitHub-Yasmin%20Emiliano-181717?style=for-the-badge&logo=github)](https://github.com/yasemiliano05-pixel)
 
 ---
 
