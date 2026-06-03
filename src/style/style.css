@@ -1,5 +1,8 @@
 :root {
     /*cor principal*/
+    --background-color: #ffffff;
+    --background-secondary-color: #F5F1EC;
+
     --cor-titulo: #CF9A30;
     --cor-paragrafo-black: #000000e5;
     --cor-paragrafo-white: #ffffffe5;
@@ -24,6 +27,7 @@
 /* GERAL */
 
 body {
+    background-color: var(--background-color);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,7 +36,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 96px;
 }
 
 h1 {
@@ -116,14 +119,13 @@ button:active {
     text-align: center;
     gap: 30px;
 
-}
-
-
-.hero-nav>a {
+    a {
     font-weight: 100;
     font-size: 20px;
     color: white;
+    }
 }
+
 
 .hero-content {
     padding: 200px;
