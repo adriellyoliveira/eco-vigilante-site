@@ -808,7 +808,7 @@ textarea {
     font-size: 48px;
     font-weight: bold;
 
-
+    white-space: nowrap;
     color: #5b4025;
 
 }
@@ -817,7 +817,7 @@ textarea {
     color: #5e7b5d;
     margin-bottom: 20px;
     font-size: 18px;
-    
+    white-space: nowrap;
 }
 
 .footer-box p {
@@ -830,6 +830,7 @@ textarea {
     color: #5e7b5d;
     font-weight: bold;
     font-size: 18px;
+    
 }
 
 .footer-box h3 {
@@ -837,7 +838,7 @@ textarea {
     font-family: 'Rubik';
     color: #824f1a;
     margin-bottom: 10px;
-    white-space:  nowrap;
+    
 }
 
 .linha {
