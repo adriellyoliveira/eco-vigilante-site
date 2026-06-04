@@ -99,7 +99,9 @@ button:active {
     transform: scale(0.95);
 }
 
-/* Header*/
+
+
+/* COMEÇO DO HEADER*/
 
 .hero-section {
     position: relative;
@@ -126,12 +128,11 @@ button:active {
     gap: 30px;
 
     a {
-    font-weight: 100;
-    font-size: 20px;
-    color: white;
+        font-weight: 100;
+        font-size: 20px;
+        color: white;
     }
 }
-
 
 .hero-content {
     padding: 200px;
@@ -166,7 +167,8 @@ button:active {
 /*FIM DO HEADER*/
 
 
-/* Seção 01 O QUE É O GARIMPO */
+
+/* COMEÇO - Seção 01 > O QUE É O GARIMPO */
 
 .about-mining {
     padding: 64px 30px;
@@ -225,10 +227,11 @@ button:active {
 }
 
 
-/* Fim Seção 01 */
+/* FIM - Seção 01 > O QUE É O GARIMPO */
 
 
-/* Seção 02 - COMO ESSA ATIVIDADE É FEITA */
+
+/* COMEÇO - Seção 02 > COMO ESSA ATIVIDADE É FEITA */
 
 .mining-process {
     padding: 64px 30px;
@@ -285,9 +288,11 @@ button:active {
     align-items: center;
 }
 
-/* Fim Seção 02 */
+/* FIM - Seção 02 > COMO ESSA ATIVIDADE É FEITA */
 
-/*Seção impacto "antes e depois da área florestal"*/
+
+
+/* COMEÇO - Seção 03 > IMPACTO NA PRATICA */
 
 .impact {
     padding: 64px 166px;
@@ -329,64 +334,56 @@ button:active {
 }
 
 
-/* Fim Seção impact */
+/* FIM - Seção 03 > IMPACTO NA PRATICA */
 
 
-/* Carrossel */
 
-.box {
-    width: 318px;
-    height: 332px;
+/* COMEÇO - Seção 04 > IMPACTOS NA REALIDADE*/
+.real-impacts {
+    padding: 64px 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-    border-radius: 24px;
+.carousel-real-impacts {
+    display: flex;
+    gap: 20px;
+}
+
+.card-real-impacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    border-radius: 10px;
     box-shadow: 0px 4px 10px;
 
+    img {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
 }
 
-.text-box {
-    padding: 64px 166px;
+.card-real-impacts-content {
+    width: 380px;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     text-align: center;
+
+    h3 {
+        color: var(--cor-titulo);
+    }
 }
 
-.carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    margin-top: 32px;
-
-}
-
-.box>p {
-    display: flex;
-    align-items: flex-end;
-    height: 110px;
-
-}
-
-.box>img {
-    width: 319px;
-    height: 195px;
-    border-radius: 24px 24px 0px 0px;
-}
+/* FIM - Seção 04 > IMPACTOS NA REALIDADE*/
 
 
 
-.box>h3 {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 94px;
-    font-size: 24px;
-    color: var(--cor-titulo);
-
-}
-
-/*fim carrossel*/
-
-
-
-/*Começo sessão numero de problemas*/
+/* COMEÇO - Seção 05 > PROBLEMAS*/
 
 .problem {
     padding: 64px 166px;
@@ -424,26 +421,90 @@ button:active {
     color: var(--cor-titulo);
 }
 
-/*fim da sessão de numeros */
-
-
-/*Seção mapa*/
+/* FIM - Seção 05 > PROBLEMAS*/
 
 
 
+/* COMEÇO - Seção 06 > LUTA DOS POVOS*/
+
+.indigenous-resistance {
+    padding: 64px 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indigenous-munduruku-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.munduruku-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.munduruku-media {
+    img {
+        width: 768px;
+        border-radius: 10px;
+    }
+}
+
+.resistance-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--cor-titulo);
+    }
+
+    li {
+        list-style: none;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+}
+
+.munduruku-info-text {
+    h4 {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--cor-titulo);
+        margin-bottom: 16px;
+    }
+
+    q {
+        font-weight: 600;
+    }
+}
+
+.munduruku-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* FIM - Seção 06 > LUTA DOS POVOS*/
 
 
 
+/* COMEÇO - Seção 07 > MAPA INTERATIVO*/
+
+/* FIM - Seção 07 > MAPA INTERATIVO*/
 
 
 
-
-
-
-
-
-
-/*Seção noticias*/
+/* COMEÇO - Seção 08 > NOTICIAS*/
 
 .section-news {
     padding: 64px 166px;
@@ -508,10 +569,11 @@ button:active {
 
 }
 
-/* FIM - Seção Notícias */
+/* FIM - Seção 08 > NOTICIAS*/
 
 
-/* Seção 08 - CANAIS DE DENÚNCIA */
+
+/* COMEÇO - Seção 09 > CANAIS DE DENUNCIAS*/
 
 .report-channel {
     padding: 64px 30px;
@@ -574,64 +636,61 @@ button:active {
     font-weight: 600;
 }
 
-/* Fim Seção 08 */
+/* FIM - Seção 09 > CANAIS DE DENUNCIAS*/
 
-/* Seção 09 - O QUE VOCÊ PODE SER FAZER?*/
 
-.acoes {
-    width: 100%;
-    padding: 50px 20px;
+
+/* COMEÇO - Seção 10 > O QUE VOCÊ PODE FAZER?*/
+
+.actions {
+    padding: 64px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
     text-align: center;
 }
 
-.acoes h2 {
-    color: var(--cor-titulo);
-    margin-bottom: 40px;
-    font-size: 38px;
-}
-
-.acoes-cards {
+.actions-cards {
     display: flex;
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
 }
 
-.acoes-card {
+.actions-card {
     width: 320px;
+
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
 }
 
-.acoes-topo-card {
+.actions-top-card {
     background-color: var(--cor-titulo);
     color: white;
     border-radius: 10px;
     padding: 20px;
+
+    h2 {
+        font-size: 60px;
+        font-weight: bold;
+        font-family: var(--font-title);
+        color: white;
+    }
+
+    p {
+        font-size: 28px;
+        font-family: var(--font-title);
+        color: white;
+    }
 }
 
-.acoes-topo-card h1 {
-    font-size: 60px;
-    font-weight: bold;
-    font-family: var(--font-title);
-    color: white;
-}
+/* FIM - Seção 10 > O QUE VOCÊ PODE FAZER?*/
 
-.acoes-topo-card h3 {
-    font-size: 28px;
-    margin-top: 5%;
-    font-family: var(--font-title);
-    color: white;
-}
 
-.acoes-card p {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #444;
-    line-height: 1.5;
-}
 
-/*fim da seção 09 */
-
-/* Seção 10 - SAIBA MAIS*/
+/* COMEÇO - Seção 11 > CTA SAIBA MAIS*/
 
 .banner {
     padding: 64px 166px;
@@ -666,11 +725,11 @@ button:active {
     text-align: center;
 }
 
-/*fim da seção 10*/
+/* FIM - Seção 11 > CTA SAIBA MAIS*/
 
 
 
-/* Seção 11 - CONTATO */
+/* COMEÇO - Seção 12 > CONTATO*/
 
 .contact {
     padding: 64px 30px;
@@ -735,13 +794,11 @@ textarea {
     height: 200px;
 }
 
-/* Seção 12 - DIREITOS AUTORAIS */
+/* FIM - Seção 12 > CONTATO*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
+/* COMEÇO DO FOOTER*/
 
 .footer {
     background-color: #f5f1eb;
@@ -815,7 +872,7 @@ textarea {
     color: #5e7b5d;
     font-weight: bold;
     font-size: 18px;
-    
+
 }
 
 .footer-box h3 {
@@ -823,7 +880,7 @@ textarea {
     font-family: 'Rubik';
     color: #824f1a;
     margin-bottom: 10px;
-    
+
 }
 
 .linha {
@@ -865,7 +922,7 @@ textarea {
     line-height: 1.8;
 }
 
-
+/* FIM DO FOOTER*/
 
 
 /* ====== MEDIA QUERY DESKTOP ======*/
