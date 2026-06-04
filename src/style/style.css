@@ -130,8 +130,26 @@ button:active {
     a {
         font-weight: 100;
         font-size: 20px;
-        color: white;
+        color: var(--cor-paragrafo-white);
+        position: relative;
+        padding-bottom: 0.75rem;
+        margin-bottom: 10px;
     }
+}
+
+.anchor-nav::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cor-card);
+    transition: all 0.4s ease;
+}
+
+.anchor-nav:hover::after {
+    width: 80%;
 }
 
 .hero-content {
