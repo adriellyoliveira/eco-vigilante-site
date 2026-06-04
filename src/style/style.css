@@ -50,6 +50,12 @@ h2 {
     color: var(--cor-titulo);
 }
 
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-paragrafo-white);
+}
+
 p {
     font-size: 18px;
 }
@@ -100,7 +106,7 @@ button:active {
     width: 100%;
     min-height: 85vh;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/garimpo-ilegal.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../assets/images/garimpo-ilegal-background-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -176,71 +182,50 @@ button:active {
     text-align: center;
 }
 
-
-.about-mining-cards  {
+.about-mining-cards {
     display: flex;
-   
-
-}
-
-.toxic-gold > img {
-    width: 320px;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-     filter: brightness(0.6);
-   
-}
-  
-.toxic-gold > .chasing-gold {
-    display: flex;
     justify-content: center;
+    gap: 20px;
 
+    .mining-card-one {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../assets/images/escavadeira.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mining-card-two {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../assets/images/area-degradada-escavacao.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mining-card-three {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../assets/images/area-verde-com-rio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
- .chasing-gold > p {
-  text-align: center;
-  position: absolute;
-  margin-top: -200px;
-  color: #f5f1eb;
- 
+.about-mining-card {
+    width: 380px;
+    height: 100%;
+    padding: 32px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    text-align: center;
+
+    p {
+        color: var(--cor-paragrafo-white);
+    }
 }
-
-.chasing-gold > img{
-   width: 80px;
-   position: absolute;
-   margin-top: -379px;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Fim Seção 01 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Seção 02 - COMO ESSA ATIVIDADE É FEITA */
