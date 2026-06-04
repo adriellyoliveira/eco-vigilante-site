@@ -629,11 +629,12 @@ button:active {
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
 
-.report-card-text>h3 {
-    font-size: 24px;
-    font-weight: 600;
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--cor-padrao-black);
+    }
 }
 
 /* FIM - Seção 09 > CANAIS DE DENUNCIAS*/
@@ -712,17 +713,17 @@ button:active {
     padding: 0px 40px;
 }
 
-.conteudo-banner {
+.content-banner {
     width: 470px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
 
-.conteudo-banner>p {
-    font-size: 24px;
-    color: var(--cor-paragrafo-white);
-    text-align: center;
+    p {
+        font-size: 24px;
+        color: var(--cor-paragrafo-white);
+        text-align: center;
+    }
 }
 
 /* FIM - Seção 11 > CTA SAIBA MAIS*/
@@ -883,7 +884,7 @@ textarea {
 
 }
 
-.linha {
+.line {
     width: 50px;
     height: 4px;
     background-color: green;
