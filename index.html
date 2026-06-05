@@ -25,13 +25,15 @@
 
             <nav class="hero-nav">
                 <a class="anchor-nav" href="">Inicio</a>
-                <a class="anchor-nav" href="">Problema</a>
-                <a class="anchor-nav" href="">Impactos</a>
-                <a class="anchor-nav" href="">Dados</a>
-                <a class="anchor-nav" href="">Contato</a>
+                <a class="anchor-nav" href="#about">Problema</a>
+                <a class="anchor-nav" href="#impacts">Impactos</a>
+                <a class="anchor-nav" href="#data">Dados</a>
+                <a class="anchor-nav" href="#news">Notícias</a>
+                <a class="anchor-nav" href="#report">Denúncias</a>
+                <a class="anchor-nav" href="#contact">Contato</a>
             </nav>
 
-            <button>Fale com a gente</button>
+            <a href="#contact" class="btn-action">Fale com a gente</a>
         </div>
 
 
@@ -43,8 +45,8 @@
             </div>
 
             <div class="button-wrapper">
-                <button>Entenda o problema</button>
-                <button>Fazer denúncia</button>
+                <a href="#about" class="btn-action">Entenda o problema</a>
+                <a href="#report" class="btn-action">Fazer denúncia</a>
             </div>
         </div>
     </header>
@@ -52,7 +54,7 @@
 
 
     <main>
-        <section class="about-mining">
+        <section id="about" class="about-mining">
             <div class="about-mining-content">
                 <h2>O que é o garimpo ilegal?</h2>
                 <p>O garimpo ilegal é a extração de minerais, principalmente ouro, sem autorização ou fora das normas
@@ -158,7 +160,7 @@
         </section>
 
 
-        <section class="real-impacts">
+        <section id="impacts" class="real-impacts">
             <h2>Quais são os impactos?</h2>
 
             <div class="carousel-real-impacts">
@@ -209,7 +211,7 @@
 
         </section>
 
-        <section class="problem">
+        <section id="data" class="problem">
             <h2>Os números do problema</h2>
             <div class="problem-cards">
                 <div class="problem-card">
@@ -253,12 +255,17 @@
                 <div class="munduruku-info">
                     <div class="munduruku-info-text">
                         <h4>Resistência Viva: O Povo Munduruku</h4>
-                        <p>Concentrados nas margens do Rio Tapajós, no Pará, os Munduruku somam uma população de mais de 14
-                            mil pessoas. Historicamente conhecidos como um povo guerreiro, seu nome carrega um significado
-                            forte: <q>formigas vermelhas</q>, uma referência à forma unida e implacável com que enfrentavam seus
+                        <p>Concentrados nas margens do Rio Tapajós, no Pará, os Munduruku somam uma população de mais de
+                            14
+                            mil pessoas. Historicamente conhecidos como um povo guerreiro, seu nome carrega um
+                            significado
+                            forte: <q>formigas vermelhas</q>, uma referência à forma unida e implacável com que
+                            enfrentavam seus
                             oponentes no passado.
                         </p>
-                        <p>Hoje, essa união é a principal arma contra o crime ambiental. Alvos constantes de invasões criminosas que destroem seus rios e florestas em busca de ouro, os Munduruku transformaram a tradição guerreira em um movimento incansável de defesa territorial.</p>
+                        <p>Hoje, essa união é a principal arma contra o crime ambiental. Alvos constantes de invasões
+                            criminosas que destroem seus rios e florestas em busca de ouro, os Munduruku transformaram a
+                            tradição guerreira em um movimento incansável de defesa territorial.</p>
                     </div>
 
                     <ul class="resistance-list">
@@ -289,7 +296,7 @@
         </section>
 
 
-        <section class="section-news">
+        <section id="news" class="section-news">
             <h2>Notícias</h2>
             <div class="news">
                 <div class="box-news">
@@ -334,7 +341,7 @@
         </section>
 
 
-        <section class="report-channel">
+        <section id="report" class="report-channel">
             <div class="report-channel-content">
                 <h2>Denuncie atividades ilegais</h2>
                 <p>O garimpo ilegal é um crime ambiental. Sua denúncia pode ajudar a proteger o meio ambiente e
@@ -355,7 +362,7 @@
                     </div>
 
                     <a href="https://www.gov.br/ibama/pt-br/canais_atendimento/fale-conosco" target="_blank"
-                        class="btn-denuncia">Fazer Denúncia</a>
+                        class="btn-action btn-card">Fazer Denúncia</a>
                 </div>
 
                 <div class="report-channel-card">
@@ -371,7 +378,7 @@
                     </div>
 
                     <a href="https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes" target="_blank"
-                        class="btn-denuncia">Fazer Denúncia</a>
+                        class="btn-action btn-card">Fazer Denúncia</a>
                 </div>
 
                 <div class="report-channel-card">
@@ -387,7 +394,7 @@
                         </div>
                     </div>
 
-                    <a href="https://www.gov.br/mdh/pt-br/ondh" target="_blank" class="btn-denuncia">Fazer Denúncia</a>
+                    <a href="https://www.gov.br/mdh/pt-br/ondh" target="_blank" class="btn-action btn-card">Fazer Denúncia</a>
                 </div>
             </div>
         </section>
@@ -428,13 +435,13 @@
                 <div class="content-banner">
                     <p>A concientização é o primeiro passo para a mudança
                     </p>
-                    <button>Saiba Mais</button>
+                    <a href="#news" class="btn-action btn-card">Saiba Mais</a>
                 </div>
             </div>
         </section>
 
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="contact-title">
                 <h2>Entre em contato</h2>
             </div>
@@ -459,7 +466,7 @@
                         </div>
                     </div>
 
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="btn-action">Enviar</button>
                 </div>
             </form>
         </section>

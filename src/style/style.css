@@ -26,6 +26,10 @@
 
 /* GERAL */
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     background-color: var(--background-color);
     width: 100%;
@@ -60,7 +64,7 @@ p {
     font-size: 18px;
 }
 
-button {
+.btn-action {
     padding: 10px 20px;
     background: var(--cor-bottons);
     color: var(--cor-paragrafo-white);
@@ -70,33 +74,18 @@ button {
     transition: ease-in-out 0.3s;
 }
 
-.btn-denuncia {
-    padding: 10px 20px;
+.btn-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--cor-bottons);
-    color: var(--cor-paragrafo-white);
-    font-weight: 500;
-    border-radius: 8px;
-
-    transition: ease-in-out 0.3s;
 }
 
-.btn-denuncia:hover {
+.btn-action:hover {
     transform: scale(1.1);
 }
 
-.btn-denuncia:active {
+.btn-action:active {
     transform: scale(0.95)
-}
-
-button:hover {
-    transform: scale(1.1);
-}
-
-button:active {
-    transform: scale(0.95);
 }
 
 
