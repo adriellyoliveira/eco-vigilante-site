@@ -241,6 +241,7 @@ p {
 /* COMEÇO - Seção 02 > COMO ESSA ATIVIDADE É FEITA */
 
 .mining-process {
+    background-color: var(--background-secondary-color);
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
@@ -393,6 +394,7 @@ p {
 /* COMEÇO - Seção 05 > PROBLEMAS*/
 
 .problem {
+    background-color: var(--background-secondary-color);
     padding: 64px 166px;
     display: flex;
     flex-direction: column;
@@ -583,6 +585,7 @@ p {
 /* COMEÇO - Seção 09 > CANAIS DE DENUNCIAS*/
 
 .report-channel {
+    background-color: var(--background-secondary-color);
     padding: 64px 30px;
     display: flex;
     flex-direction: column;
