@@ -37,7 +37,7 @@ O projeto também estabelece relação com os Objetivos de Desenvolvimento Suste
 * Desenvolver uma interface web responsiva e semântica
 * Aplicar conceitos de UI Design e experiência do usuário
 * Trabalhar organização visual e hierarquia de informações
-* Desenvolver um projeto web utilizando HTML, CSS e JavaScript
+* Desenvolver um projeto web utilizando HTML e CSS
 
 ---
 
