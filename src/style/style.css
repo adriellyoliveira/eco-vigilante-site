@@ -12,7 +12,7 @@
     --black-color: #000000;
     --white-color: #ffffff;
 
-   --card-color: #CF9A30;
+    --card-color: #CF9A30;
     --bottons-color: linear-gradient(#A1672A, #CF9A30);
 
     --form-color: #FFF1D9;
@@ -104,14 +104,27 @@ p {
 }
 
 .hero-navbar {
-    padding: 20px 166px;
+    padding: 64px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+
+}
+
+.nav-logo-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .burguer-menu {
+        width: 56px;
+    }
 }
 
 .hero-nav {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -125,6 +138,10 @@ p {
         padding-bottom: 0.75rem;
         margin-bottom: 10px;
     }
+}
+
+.btn-nav {
+    display: none;
 }
 
 .anchor-nav::after {
@@ -143,7 +160,9 @@ p {
 }
 
 .hero-content {
-    padding: 200px;
+    padding: 64px 30px;
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -304,7 +323,7 @@ p {
 /* COMEÇO - Seção 03 > IMPACTO NA PRATICA */
 
 .impact {
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -315,15 +334,17 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 24px;
 }
 
 .container-impact {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 .before-image>p {
@@ -349,7 +370,7 @@ p {
 
 /* COMEÇO - Seção 04 > IMPACTOS NA REALIDADE*/
 .real-impacts {
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     gap: 56px;
     flex-direction: column;
@@ -359,10 +380,14 @@ p {
 
 .carousel-real-impacts {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
 .card-real-impacts {
+    width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -397,16 +422,19 @@ p {
 
 .problem {
     background-color: var(--background-secondary-color);
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     gap: 56px;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
 .problem-cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -440,7 +468,7 @@ p {
 /* COMEÇO - Seção 06 > LUTA DOS POVOS*/
 
 .indigenous-resistance {
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -457,6 +485,7 @@ p {
 
 .munduruku-profile {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 56px;
@@ -464,7 +493,7 @@ p {
 
 .munduruku-media {
     img {
-        width: 768px;
+        width: 468px;
         border-radius: 10px;
     }
 }
@@ -521,7 +550,7 @@ p {
 /* COMEÇO - Seção 08 > NOTICIAS*/
 
 .section-news {
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     flex-direction: column;
     gap: 56px;
@@ -539,6 +568,7 @@ p {
     gap: 30px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -709,17 +739,18 @@ p {
 /* COMEÇO - Seção 11 > CTA SAIBA MAIS*/
 
 .banner {
-    padding: 64px 166px;
+    padding: 64px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .overlay {
-    width: 1180px;
+    width: 100%;
     height: 210px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/images/area-destruida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -817,7 +848,7 @@ textarea {
 /* COMEÇO DO FOOTER*/
 
 .footer {
-    padding: 64px 166px;
+    padding: 64px 30px;
     background-color: var(--background-secondary-color);
     display: flex;
     flex-direction: column;
@@ -826,7 +857,8 @@ textarea {
 
 .footer-container-top {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 80px;
 }
 
 .footer-column-one {
@@ -838,6 +870,7 @@ textarea {
 .logo-area {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 
     h3 {
@@ -849,6 +882,9 @@ textarea {
 
 .footer-column-one-content {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
     gap: 24px;
 
@@ -859,7 +895,7 @@ textarea {
     }
 
     p {
-        width: 380px;
+        width: 100%;
         font-size: 18px;
         color: var(--paragraph-color-brown);
     }
@@ -867,6 +903,7 @@ textarea {
 
 .footer-column-one-content-tag-line {
     display: flex;
+    align-items: center;
     gap: 12px;
 
     img {
@@ -879,8 +916,10 @@ textarea {
 }
 
 
-.footer-column-two, .footer-column-three {
+.footer-column-two,
+.footer-column-three {
     display: flex;
+    text-align: center;
     flex-direction: column;
     gap: 32px;
 
@@ -897,12 +936,13 @@ textarea {
 .footer-nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 
 .footer-link {
     display: flex;
-    align-items: center;
     gap: 8px;
     font-size: 18px;
     color: var(--paragraph-color-brown);
@@ -910,6 +950,7 @@ textarea {
 
 .footer-column-three-content {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 24px;
 
@@ -956,18 +997,123 @@ textarea {
 /* ====== MEDIA QUERY DESKTOP ======*/
 
 @media (min-width: 1280px) {
-    .about-mining {
+
+    /* GERAL */
+    .hero-navbar,
+    .hero-content,
+    .about-mining,
+    .mining-process,
+    .impact,
+    .real-impacts,
+    .problem,
+    .indigenous-resistance,
+    .section-news,
+    .report-channel,
+    .actions,
+    .banner,
+    .contact,
+    .footer {
         padding: 64px 166px;
     }
+
+
+
+    /* COMEÇO - HERO */
+
+    .nav-logo-menu {
+        width: 0px;
+    }
+
+    .hero-nav {
+        display: flex;
+    }
+
+    .burguer-menu {
+        display: none;
+    }
+
+    .btn-nav {
+        display: flex;
+    }
+
+    .hero-content {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    /* FIM - HERO */
+
+
+    /* COMEÇO - O QUE É O GARIMPO */
+
 
     .about-mining-cards {
         flex-direction: row;
         justify-content: center;
     }
 
+    /* FIM - O QUE É O GARIMPO */
+
+
+    /* COMEÇO - COMO ESSA ATIVIDADE É FEITA */
+
     .mining-process {
         padding: 64px 166px;
     }
+
+    /* FIM - COMO ESSA ATIVIDADE É FEITA */
+
+
+    /* COMEÇO - IMPACTO NA PRATICA */
+
+
+    /* FIM - IMPACTO NA PRATICA */
+
+
+    /* COMEÇO - IMPACTOS NA REALIDADE */
+
+    .carousel-real-impacts {
+        flex-wrap: nowrap;
+    }
+
+    .card-real-impacts {
+        width: 100%;
+    }
+    
+    /* FIM - IMPACTOS NA REALIDADE */
+
+
+    /* COMEÇO - PROBLEMAS */
+
+    /* FIM - PROBLEMAS */
+
+
+    /* COMEÇO - LUTA DOS POVOS */
+
+    .munduruku-profile {
+        flex-direction: row;
+    }
+
+    .munduruku-media {
+        img {
+            width: 768px !important;
+        }
+    }
+
+    /* FIM - LUTA DOS POVOS */
+
+
+    /* COMEÇO - MAPA INTERATIVO */
+
+    /* FIM - MAPA INTERATIVO */
+
+
+    /* COMEÇO - NOTICIAS */
+
+    /* FIM - NOTICIAS */
+
+
+    /* COMEÇO - DENUNCIA */
 
     .report-channel {
         padding: 64px 166px;
@@ -981,6 +1127,21 @@ textarea {
     .report-channel-card {
         width: 380px;
     }
+
+    /* FIM - DENUNCIA */
+
+
+    /* COMEÇO - O QUE VOCÊ PODE FAZER? */
+
+    /* FIM - O QUE VOCÊ PODE FAZER? */
+
+
+    /* COMEÇO - CTA SAIBA MAIS */
+
+    /* FIM - CTA SAIBA MAIS */
+
+
+    /* COMEÇO - CONTATO */
 
     .contact {
         padding: 64px 166px;
@@ -1004,6 +1165,15 @@ textarea {
         height: 480px;
         border-radius: 0px 16px 16px 0px;
     }
+
+    /* FIM - CONTATO */
+
+
+    /* COMEÇO - FOOTER */
+
+    
+
+    /* FIM - FOOTER */
 }
 
 /* ====== MEDIA QUERY TABLET ======*/
@@ -1023,4 +1193,64 @@ textarea {
     }
 
 
+    /* COMEÇO - COMO ESSA ATIVIDADE É FEITA */
+
+    /* FIM - COMO ESSA ATIVIDADE É FEITA */
+
+
+    /* COMEÇO - IMPACTO NA PRATICA */
+
+    /* FIM - IMPACTO NA PRATICA */
+
+
+    /* COMEÇO - IMPACTOS NA REALIDADE */
+
+    /* FIM - IMPACTOS NA REALIDADE */
+
+
+    /* COMEÇO - PROBLEMAS */
+
+    /* FIM - PROBLEMAS */
+
+
+    /* COMEÇO - LUTA DOS POVOS */
+    .munduruku-media {
+        img {
+            width: 568px;
+        }
+    }
+
+    /* FIM - LUTA DOS POVOS */
+
+
+    /* COMEÇO - MAPA INTERATIVO */
+
+    /* FIM - MAPA INTERATIVO */
+
+
+    /* COMEÇO - NOTICIAS */
+
+    /* FIM - NOTICIAS */
+
+
+    /* COMEÇO - O QUE VOCÊ PODE FAZER? */
+
+    /* FIM - O QUE VOCÊ PODE FAZER? */
+
+
+    /* COMEÇO - CTA SAIBA MAIS */
+    .overlay {
+        justify-content: left;
+    }
+
+    /* FIM - CTA SAIBA MAIS */
+
+
+    /* COMEÇO - CONTATO */
+
+
+
+    /* COMEÇO - FOOTER */
+
+    /* FIM - FOOTER */
 }
