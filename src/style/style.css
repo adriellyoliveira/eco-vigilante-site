@@ -464,8 +464,37 @@ p {
 /* FIM - Seção 05 > PROBLEMAS*/
 
 
+/* COMEÇO - Seção 06 > MAPA INTERATIVO*/
 
-/* COMEÇO - Seção 06 > LUTA DOS POVOS*/
+.map-section {
+    padding: 64px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.map-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+
+    iframe {
+        width: 100%;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+
+/* FIM - Seção 06 > MAPA INTERATIVO*/
+
+
+/* COMEÇO - Seção 07 > LUTA DOS POVOS*/
 
 .indigenous-resistance {
     padding: 64px 30px;
@@ -537,13 +566,7 @@ p {
     gap: 24px;
 }
 
-/* FIM - Seção 06 > LUTA DOS POVOS*/
-
-
-
-/* COMEÇO - Seção 07 > MAPA INTERATIVO*/
-
-/* FIM - Seção 07 > MAPA INTERATIVO*/
+/* FIM - Seção 07 > LUTA DOS POVOS*/
 
 
 
@@ -1069,12 +1092,6 @@ textarea {
     /* FIM - COMO ESSA ATIVIDADE É FEITA */
 
 
-    /* COMEÇO - IMPACTO NA PRATICA */
-
-
-    /* FIM - IMPACTO NA PRATICA */
-
-
     /* COMEÇO - IMPACTOS NA REALIDADE */
 
     .carousel-real-impacts {
@@ -1088,9 +1105,19 @@ textarea {
     /* FIM - IMPACTOS NA REALIDADE */
 
 
-    /* COMEÇO - PROBLEMAS */
+    /* COMEÇO - MAPA INTERATIVO */
 
-    /* FIM - PROBLEMAS */
+    .map-container {
+
+        iframe {
+            width: 1000px;
+            height: 700px;
+        }
+
+    }
+
+
+    /* FIM - MAPA INTERATIVO */
 
 
     /* COMEÇO - LUTA DOS POVOS */
@@ -1106,16 +1133,6 @@ textarea {
     }
 
     /* FIM - LUTA DOS POVOS */
-
-
-    /* COMEÇO - MAPA INTERATIVO */
-
-    /* FIM - MAPA INTERATIVO */
-
-
-    /* COMEÇO - NOTICIAS */
-
-    /* FIM - NOTICIAS */
 
 
     /* COMEÇO - DENUNCIA */
@@ -1134,11 +1151,6 @@ textarea {
     }
 
     /* FIM - DENUNCIA */
-
-
-    /* COMEÇO - O QUE VOCÊ PODE FAZER? */
-
-    /* FIM - O QUE VOCÊ PODE FAZER? */
 
 
     /* COMEÇO - CTA SAIBA MAIS */
@@ -1222,24 +1234,17 @@ textarea {
     }
 
 
-    /* COMEÇO - COMO ESSA ATIVIDADE É FEITA */
+    /* COMEÇO - MAPA INTERATIVO */
 
-    /* FIM - COMO ESSA ATIVIDADE É FEITA */
+    .map-container {
 
+        iframe {
+        width: 100%;
+        height: 700px;
+    }
+    }
 
-    /* COMEÇO - IMPACTO NA PRATICA */
-
-    /* FIM - IMPACTO NA PRATICA */
-
-
-    /* COMEÇO - IMPACTOS NA REALIDADE */
-
-    /* FIM - IMPACTOS NA REALIDADE */
-
-
-    /* COMEÇO - PROBLEMAS */
-
-    /* FIM - PROBLEMAS */
+    /* FIM - MAPA INTERATIVO */
 
 
     /* COMEÇO - LUTA DOS POVOS */
@@ -1256,31 +1261,12 @@ textarea {
     /* FIM - LUTA DOS POVOS */
 
 
-    /* COMEÇO - MAPA INTERATIVO */
-
-    /* FIM - MAPA INTERATIVO */
-
-
-    /* COMEÇO - NOTICIAS */
-
-    /* FIM - NOTICIAS */
-
-
-    /* COMEÇO - O QUE VOCÊ PODE FAZER? */
-
-    /* FIM - O QUE VOCÊ PODE FAZER? */
-
-
     /* COMEÇO - CTA SAIBA MAIS */
     .overlay {
         justify-content: left;
     }
 
     /* FIM - CTA SAIBA MAIS */
-
-
-    /* COMEÇO - CONTATO */
-
 
 
     /* COMEÇO - FOOTER */
