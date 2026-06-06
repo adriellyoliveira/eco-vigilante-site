@@ -920,6 +920,7 @@ textarea {
 .footer-column-three {
     display: flex;
     text-align: center;
+    align-items: center;
     flex-direction: column;
     gap: 32px;
 
@@ -936,14 +937,15 @@ textarea {
 .footer-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 16px;
 }
 
 .footer-link {
     display: flex;
-    gap: 8px;
+    align-items: center;
+    gap: 12px;
     font-size: 18px;
     color: var(--paragraph-color-brown);
 }
@@ -999,8 +1001,6 @@ textarea {
 @media (min-width: 1280px) {
 
     /* GERAL */
-    .hero-navbar,
-    .hero-content,
     .about-mining,
     .mining-process,
     .impact,
@@ -1013,7 +1013,7 @@ textarea {
     .banner,
     .contact,
     .footer {
-        padding: 64px 166px;
+        padding: 112px 166px;
     }
 
 
@@ -1028,6 +1028,10 @@ textarea {
         display: flex;
     }
 
+    .hero-navbar {
+        padding: 32px 166px 84px;
+    }
+
     .burguer-menu {
         display: none;
     }
@@ -1037,6 +1041,7 @@ textarea {
     }
 
     .hero-content {
+        padding: 64px 166px;
         text-align: left;
         align-items: flex-start;
     }
@@ -1079,7 +1084,7 @@ textarea {
     .card-real-impacts {
         width: 100%;
     }
-    
+
     /* FIM - IMPACTOS NA REALIDADE */
 
 
@@ -1138,6 +1143,10 @@ textarea {
 
     /* COMEÇO - CTA SAIBA MAIS */
 
+    .overlay {
+        justify-content: left;
+    }
+
     /* FIM - CTA SAIBA MAIS */
 
 
@@ -1171,14 +1180,34 @@ textarea {
 
     /* COMEÇO - FOOTER */
 
-    
+    .logo-area {
+        justify-content: flex-start;
+    }
+
+    .footer-container-top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-column-one-content {
+        text-align: left;
+        align-items: flex-start;
+
+        p {
+            width: 380px;
+        }
+    }
+
+    .footer-nav {
+        align-items: flex-start;
+    }
 
     /* FIM - FOOTER */
 }
 
 /* ====== MEDIA QUERY TABLET ======*/
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1279px) {
     .about-mining-cards {
         flex-direction: row;
     }
@@ -1220,6 +1249,10 @@ textarea {
         }
     }
 
+    .munduruku-info {
+        padding: 0px 32px;
+    }
+
     /* FIM - LUTA DOS POVOS */
 
 
@@ -1251,6 +1284,18 @@ textarea {
 
 
     /* COMEÇO - FOOTER */
+
+    .footer-container-top {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    .footer-column-one {
+        width: 100%;
+        margin-bottom: 40px;
+    }
 
     /* FIM - FOOTER */
 }
